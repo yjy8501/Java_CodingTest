@@ -15,15 +15,18 @@ public class WordReverse {
 
         int n = Integer.parseInt(bf.readLine());
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i <= n; i++) {
             String[] line = bf.readLine().split(" ");
             List<String> list = new ArrayList<>(Arrays.asList(line));
 
             Collections.reverse(list);
 
-            for(String element : list) {
+            System.out.print("Case "+"#"+i+": ");
 
+            for(String element : list) {
+                System.out.print(element+" ");
             }
+            System.out.println();
 
         }
     }
