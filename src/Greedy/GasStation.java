@@ -33,9 +33,9 @@ public class GasStation {
 
         // min에 현재를 넣고 시작
         int min = city[0];
-        int distance = distances[0];
+        long distance = distances[0];
         // 총 가격
-        int price = 0;
+        long price = 0;
 
         // N만큼 반복
         for(int i = 1; i < N; i++) {
