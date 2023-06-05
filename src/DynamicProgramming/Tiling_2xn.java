@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 import java.util.Scanner;
 
-public class tileing_2xn {
+public class Tiling_2xn {
 
     public static void main(String[] args) {
 
