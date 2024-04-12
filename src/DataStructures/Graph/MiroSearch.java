@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class MiroSerch {
+public class MiroSearch {
     static int N;
     static int M;
     static char[][] miro;
